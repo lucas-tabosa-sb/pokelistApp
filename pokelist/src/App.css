@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+ }
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+input {
+  width: 600px;
+  margin: 1rem 2rem 1rem 6rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 16px;
+}
+
+button {
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  background: #282c34;
+  color: #fff;
+  font-size: 1.5rem;
+  height: 4rem;
+}
+
+button:hover {
+  background: rgb(179, 35, 35);
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.poke-img-container {
+  width: 250px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.poke-img-container img {
+  height: 50%;
+  width: auto;
+}
+
+.error-message-container {
+  width: 600px;
+  margin: 0 auto;
+}
