@@ -1,0 +1,47 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+    width: 300px;
+
+    border-radius: 18px;
+    background: rgb(184, 22, 22);
+    color: #fff;
+}
+
+form#register-pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 300px; */
+    padding: 1rem 0;
+}
+
+label {
+    margin-top: 1rem;
+}
+
+input#pokeName {
+    width: 70%;
+    margin: 10px 0;
+    height: 1rem;
+    font-family: 1rem;
+}
+
+input#pokeImage {
+    width: 70%;
+    font-size: 1rem;
+}
+
+#pokeAdd {
+    height: 2.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+#pokeAdd:hover {
+    background-color: #505152;
+}
