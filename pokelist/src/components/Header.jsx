@@ -1,5 +1,5 @@
 import React from 'react'
-import './Header.component.css'
+import './styles/Header.component.css'
 
 const Header = (props) => {
   console.log(props.pokemons)

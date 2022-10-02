@@ -1,4 +1,5 @@
 import React from "react";
+import './styles/PokemonSearch.component.css'
 import data from '../localData'
 
 import { useState } from 'react'
@@ -19,13 +20,16 @@ const Pokemon = () => {
   return (
     <>
       <div className="search-container">
-        <input
+        <div className="search">
+          <input
           type="search"
           name="pokeSearch"
           id="pokeSearch"
           placeholder="type the name of the Pokémon, e.g.: Pikachu"
         />
-        <button onClick={searchPokemon}>Search</button>
+        <button onClick={searchPokemon} id="search-cta">Search</button>
+        </div>
+        
       </div>
       <div className="result-container">
         {discoveredPokemon.includes(`${pokemon}`) ? (

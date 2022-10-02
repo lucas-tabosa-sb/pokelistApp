@@ -1,0 +1,60 @@
+
+
+.search {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+button {
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background: #282c34;
+    color: #fff;
+    font-size: 1.5rem;
+    height: 4rem;
+}
+
+button:hover {
+    background: rgb(179, 35, 35);
+}
+
+.poke-img-container {
+    width: 250px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.poke-img-container img {
+    height: 50%;
+    width: auto;
+}
+
+.error-message-container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+input {
+    width: 600px;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 16px;
+    border: none;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
